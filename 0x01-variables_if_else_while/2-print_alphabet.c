@@ -13,7 +13,7 @@ int main(void)
 int i;
 char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 
-for (i = 0; i < 26; i++)
+for (i = 0; i < 27; i++)
 {
 if (alpha[i] == '\0')
 {
