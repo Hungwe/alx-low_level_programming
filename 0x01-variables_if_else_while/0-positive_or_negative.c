@@ -30,7 +30,7 @@ printf("%d is negative\n", n);
 
 if (n == 0)
 {
-printf("0 is zero");
+printf("0 is zero\n");
 }
 
 return (0);
