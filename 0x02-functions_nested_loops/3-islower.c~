@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+ * _islower - check lower case letter
+ *
+ * @parameterc: is variable input
+ *
+ * Return: 1 or 0
+ */
+
+int _islower(int c)
+{
+int l = islower(c);
+if (l > 0)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
