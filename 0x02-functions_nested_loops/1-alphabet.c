@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * Function to print alphabet in small caps
+ *print_alphabet - Function to print alphabet in small caps
  *
  * Return: string of alphabet
  */
