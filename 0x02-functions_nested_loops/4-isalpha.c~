@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+ * main - Entry point
+ * @c: Input parameter
+ *
+ * Return: Always 0 (Success)
+ */
+
+int _isalpha(int c)
+{
+int l = isalpha();
+if (l > 0)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
