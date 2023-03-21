@@ -4,18 +4,10 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * Function to print alphabet in small caps
  *
- * Return: Always 0 (Success)
+ * Return: string of alphabet
  */
-
-int main(void)
-{
-
-print_alphabet();
-
-return (0);
-}
 
 char print_alphabet(void)
 {
