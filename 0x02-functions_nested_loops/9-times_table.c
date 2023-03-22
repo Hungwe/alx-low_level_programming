@@ -18,10 +18,12 @@ for (i = 0; i < 10; i++)
 {
 for (j = 0; j < 9; j++)
 {
-int y = i * j;
+int y;
+y = i * j;
 printf("%2d, ", y);
 }
-int a = 9 * i;
+int a;
+a = 9 * i;
 printf("%2d\n", a);
 }
 }
