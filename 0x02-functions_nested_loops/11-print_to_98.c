@@ -16,19 +16,19 @@ void print_to_98(int n)
 if (n < 98)
 {
 int i;
-for (i = n; i < 99; i++)
+for (i = n; i < 98; i++)
 {
 printf("%d, ", i);
 }
-printf("\n");
+printf("98\n");
 }
 else
 {
 int j;
-for (j = n; j > 97; j--)
+for (j = n; j > 98; j--)
 {
 printf("%d, ", j);
 }
-printf("\n");
+printf("98\n");
 }
 }
