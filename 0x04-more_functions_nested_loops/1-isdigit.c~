@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+* main - takes a date and prints how many days are left in the year, taking
+* leap years into account
+* Return: 0
+*/
+
+int main(void)
+{
+char c;
+
+c = '0';
+printf("%c: %d\n", c, _isdigit(c));
+c = 'B';
+printf("%c: %d\n", c, _isdigit(c));
+
+return (0);
+}
+
+/**
+ * _isdigit - Checks if c is digit
+ * @c: Input char
+ *
+ * Return: 1 or 0
+ */
+
+int _isdigit(int c)
+{
+int a;
+a = isdigit(c);
+
+if (a > 0)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}

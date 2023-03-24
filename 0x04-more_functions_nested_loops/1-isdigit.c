@@ -6,17 +6,16 @@
 #include "main.h"
 
 /**
- *_isupper - Checks if letter is upper case
- * @c: input character
+ * _isdigit - Checks if c is digit
+ * @c: Input char
  *
  * Return: 1 or 0
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
 int a;
-
-a = isupper(c);
+a = isdigit(c);
 
 if (a > 0)
 {
