@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+ * print_rev - prints string in reverse
+ * @s: Input string pointer
+ *
+ */
+
+void print_rev(char *s)
+{
+int l;
+int i;
+l = strlen(s);
+for (i = l - 1; i > -1; i--)
+{
+printf("%c", s[i]);
+}
+printf("\n");
+}
