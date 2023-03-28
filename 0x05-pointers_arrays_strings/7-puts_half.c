@@ -32,7 +32,7 @@ int n;
 int sub;
 sub = l - 1;
 n = sub / 2;
-for (i = n; i < l; i++)
+for (i = n + 1; i < l; i++)
 {
 printf("%c", str[i]);
 }
