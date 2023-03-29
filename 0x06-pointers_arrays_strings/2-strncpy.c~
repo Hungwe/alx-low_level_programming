@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+ * _strncpy - Copy string using pointers
+ * @dest: Destination pointer
+ * @src: Source pointer
+ * @n: Number size
+ *
+ * Return: Pointer of new string
+ *
+ */
+
+char *_strncpy(char *dest, char *src, int n)
+{
+char *ptr;
+ptr = strncpy(dest, src, n);
+return(ptr);
+}
