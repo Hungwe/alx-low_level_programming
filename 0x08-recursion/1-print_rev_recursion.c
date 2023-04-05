@@ -21,7 +21,6 @@ putchar(*s);
 }
 else
 {
-putchar('\n');
 return;
 }
 }
