@@ -14,11 +14,13 @@
 void *malloc_checked(unsigned int b)
 {
 int *check;
+int *numptr;
 int num;
 num = 98;
+numptr = &num;
 if (b == 0)
 {
-printf("%d\n", num);
+return (numptr);
 }
 else
 {
