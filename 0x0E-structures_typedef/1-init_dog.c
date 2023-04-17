@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 #include "dog.h"
-#include "main.h"
 
 /**
  * init_dog - Initialise struct
