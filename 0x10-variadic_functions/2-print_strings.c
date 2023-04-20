@@ -29,13 +29,31 @@ else
 for (i = 0; i < n - 1; i++)
 {
 str = va_arg(args, const char *);
+if (str == NULL)
+{
+printf("(nil)");
+printf("%s", separator);
+continue;
+}
+else
+{
 printf("%s", str);
 printf("%s", separator);
+}
 }
 for (i = n - 1; i < n; i++)
 {
 str = va_arg(args, const char *);
+if (str == NULL)
+{
+printf("(nil)");
+continue;
+}
+else
+{
 printf("%s", str);
+continue;
+}
 }
 printf("\n");
 }
