@@ -21,6 +21,7 @@ va_list args;
 va_start(args, n);
 if (separator == NULL)
 {
+printf("\n");
 return;
 }
 else
