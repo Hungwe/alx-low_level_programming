@@ -33,7 +33,6 @@ if (str == NULL)
 {
 printf("(nil)");
 printf("%s", separator);
-continue;
 }
 else
 {
@@ -47,12 +46,10 @@ str = va_arg(args, const char *);
 if (str == NULL)
 {
 printf("(nil)");
-continue;
 }
 else
 {
 printf("%s", str);
-continue;
 }
 }
 printf("\n");
