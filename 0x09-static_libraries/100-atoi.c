@@ -11,4 +11,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-int _atoi(char *s);
+int _atoi(char *s)
+{
+int a;
+
+a = *s;
+return (a);
+}

@@ -13,4 +13,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+char *a;
+
+a = dest + *src + n;
+return (a);
+}

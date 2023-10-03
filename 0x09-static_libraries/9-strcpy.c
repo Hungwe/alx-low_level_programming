@@ -12,4 +12,10 @@
  * Return: string copy
  */
 
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
+{
+char *a;
+
+a = dest + *src;
+return (a);
+}

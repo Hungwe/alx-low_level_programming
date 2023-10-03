@@ -12,4 +12,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
+{
+int a;
+
+a = *s1 + *s2;
+return (a);
+}

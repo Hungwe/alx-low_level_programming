@@ -8,6 +8,10 @@
  * _puts - Return a segmented string using pointers
  * @s: Initial segment pointer
  *
+ * Return: nothing
  */
 
-void _puts(char *s);
+void _puts(char *s)
+{
+_putchar(*s); 
+}

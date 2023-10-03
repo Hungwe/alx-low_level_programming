@@ -8,6 +8,13 @@
  * _isdigit - Return a segmented string using pointers
  * @c: Initial segment pointer
  *
+ * Return: digit
  */
 
-int _isdigit(int c);
+int _isdigit(int c)
+{
+int a;
+
+a = c;
+return (a);
+}

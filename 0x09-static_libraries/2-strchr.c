@@ -12,4 +12,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
+{
+char *a;
+
+a = s + c;
+return (a);
+}

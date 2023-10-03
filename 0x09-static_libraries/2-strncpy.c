@@ -13,4 +13,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
+{
+char *a;
+
+a = dest + *src + n;
+return (a);
+}

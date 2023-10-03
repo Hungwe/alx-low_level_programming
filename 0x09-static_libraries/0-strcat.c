@@ -12,4 +12,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
+{
+char *a;
+
+a = dest + *src;
+return (a);
+}

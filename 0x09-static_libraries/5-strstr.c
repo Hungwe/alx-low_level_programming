@@ -12,4 +12,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
+{
+char *a;
+
+a = haystack + *needle;
+return (a);
+}

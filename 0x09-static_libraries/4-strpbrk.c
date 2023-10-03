@@ -12,4 +12,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
+{
+char *a;
+
+a = s + *accept;
+return (a);
+}

@@ -8,6 +8,14 @@
  * _putchar - Return a segmented string using pointers
  * @c: Initial segment pointer
  *
+ * Return: digit
  */
 
-int _putchar(char c);
+
+int _putchar(char c)
+{
+int a;
+
+a = c;
+return (a);
+}

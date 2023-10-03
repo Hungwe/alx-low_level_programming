@@ -12,4 +12,10 @@
  * Return: Number of bytes occurring in another string
  */
 
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
+{
+unsigned int a;
+
+a = *s + *accept;
+return (a);
+}
