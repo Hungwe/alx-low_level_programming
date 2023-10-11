@@ -89,5 +89,5 @@ int op_mod(int a, int b)
 int remain;
 
 remain = a % b;
-return (a % b);
+return (remain);
 }
